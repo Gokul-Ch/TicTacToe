@@ -50,8 +50,8 @@ const checkWin =()=>{
 }
 
 // Game Logic
-/*music.loop = true;
-music.play() */
+music.loop = true;
+music.play() 
 
 let boxes=document.getElementsByClassName("box");
 Array.from(boxes).forEach(element=>{
